@@ -1,0 +1,65 @@
+.sign {
+    background: url(/assets/background.jpg);
+    padding: 2rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 45rem; /* 544px */
+
+}
+
+.sign .sign__box-one {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+
+}
+
+.sign__box-one .box__logo {
+    /* margin-left: 4rem; */
+    /* position: relative; */
+    width: 15rem;
+}
+
+.sign__box-one .box__title-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem;
+    position: relative;
+}
+ .bg {
+    width: 100%;
+    right: -2rem;
+    position: absolute;
+    z-index: 0;
+ }
+
+.sign__box-one .box__title-wrap .box__title {
+    font-size: 0.66rem;
+    margin-left: 0.1rem;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+.sign__box-two {
+    display: flex;
+    padding: 2rem;
+}
+
+.sign__box-two .sign__link-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: yellow;
+    padding: 1rem;
+}
+.sign__box-two .sign__link-wrap a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+}
+
