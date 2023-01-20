@@ -21,45 +21,95 @@
     width: 15rem;
 }
 
-.sign__box-one .box__title-wrap {
+.sign__box-one .box__wrap {
     display: flex;
     align-items: center;
-    flex-direction: row;
-    padding: 1rem;
+    /* padding: 1rem; */
     position: relative;
 }
+
+
  .bg {
-    width: 100%;
+    width: 27rem;
     right: -2rem;
     position: absolute;
     z-index: 0;
  }
 
-.sign__box-one .box__title-wrap .box__title {
-    font-size: 0.66rem;
-    margin-left: 0.1rem;
-    color: #fff;
+ .sign__box-one .box__wrap .box__title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
     z-index: 1;
+    /* right: -1rem; */
+ }
 
+.sign__box-one .box__wrap .box__title-wrap .box__title {
+    font-size: 0.68rem;
+    margin-left: 0.1rem;
+    color: white;
+    position: relative;
+    z-index: 1;
+    right: -1rem;
 }
 
 
 .sign__box-two {
     display: flex;
-    padding: 2rem;
+    /* padding: 2rem; */
+    margin-top: 2rem;
+    position: relative;
+}
+.sign__bg {
+    position: absolute;
+    width: 40rem;
+    z-index: 0;
+    bottom: -2.4rem;
+    left: -2rem;
+
 }
 
 .sign__box-two .sign__link-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: yellow;
+    /* background: yellow; */
     padding: 1rem;
+    position: relative;
+    z-index: 1;
+    top: 2vh;
 }
 .sign__box-two .sign__link-wrap a {
     text-decoration: none;
-    color: black;
+    color: #fff;
     margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+.sign__social {
+
+}
+
+.sign__social-bg {
+    position: absolute;
+    width: 15rem;
+    right: -2rem;
+    top: 1vh;
+    z-index: 0;
+}
+
+.sign__social-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    right: -13rem;
+    top: 2.5vh;
+}
+
+.social {
+    width: 1.5rem;
 }
 
